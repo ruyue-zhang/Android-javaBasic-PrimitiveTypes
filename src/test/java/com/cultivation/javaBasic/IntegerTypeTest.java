@@ -60,8 +60,8 @@ class IntegerTypeTest {
 
         // TODO: You should not write concrete number here. Please find a property or constant instead.
         // <!--start
-        final byte maximumSymbol = 0;
-        final byte minimumSymbol = 0;
+        final byte maximumSymbol = 0x7f;
+        final byte minimumSymbol = -0x80;
         // --end-->
 
         assertEquals(maximumSymbol, maximum);
