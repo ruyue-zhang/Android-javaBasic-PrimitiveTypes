@@ -15,8 +15,8 @@ class IntegerTypeTest {
 
         // TODO: You should not write concrete number here. Please find a property or constant instead.
         // <!--start
-        final int maximumSymbol = 0;
-        final int minimumSymbol = 0;
+        final int maximumSymbol = 2147483647;
+        final int minimumSymbol = -2147483648;
         // --end-->
 
         assertEquals(maximumSymbol, maximum);
