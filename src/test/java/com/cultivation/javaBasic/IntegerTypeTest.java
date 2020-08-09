@@ -30,8 +30,8 @@ class IntegerTypeTest {
 
         // TODO: You should not write concrete number here. Please find a property or constant instead.
         // <!--start
-        final short maximumSymbol = 0;
-        final short minimumSymbol = 0;
+        final short maximumSymbol = 0x7fff;
+        final short minimumSymbol = (short)0x8000; //-0x8000
         // --end-->
 
         assertEquals(maximumSymbol, maximum);
